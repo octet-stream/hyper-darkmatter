@@ -16,7 +16,7 @@ const cyan = "#22bae4";
 const lightCyan = "#58dbff";
 const lightGreen = "#90cc5b";
 
-const decorateConfig = config => assign({}, config, {
+var darkMatter = {
   backgroundColor, foregroundColor, cursorColor, borderColor,
   colors: {
     black: backgroundColor, white: foregroundColor,
@@ -31,6 +31,8 @@ const decorateConfig = config => assign({}, config, {
       background: rgba(101, 115, 126, .10);
     }
   `
-});
+};
+
+const decorateConfig = config => assign({}, config, darkMatter);
 
 module.exports.decorateConfig = decorateConfig;
