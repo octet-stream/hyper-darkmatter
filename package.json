@@ -1,7 +1,10 @@
 {
   "name": "hyper-darkmatter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Darkmatter theme for Hyper, inspired by Sublime Darkmatter",
+  "keywords": [
+    "hyper", "theme", "hyper-theme", "term", "terminal", "dark-theme"
+  ],
   "main": "main.js",
   "author": "Nick K.",
   "license": "MIT",
