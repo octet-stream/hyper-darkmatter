@@ -8,7 +8,7 @@ borderColor = backgroundColor
 cursorColor = foregroundColor
 
 # red = "#fd5656"
-red = "#ff7676"
+red = "#d5713f"
 green = "#75bb36"
 yellow = "#e7e781"
 blue = "#267faf"
