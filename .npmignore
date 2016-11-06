@@ -1,4 +1,5 @@
 node_modules
 main.coffee
+screenshot.png
 .gitignore
 .DS_Store
