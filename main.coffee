@@ -7,7 +7,6 @@ foregroundColor = "#c0c5ce"
 borderColor = backgroundColor
 cursorColor = foregroundColor
 
-# red = "#fd5656"
 red = "#d5713f"
 green = "#75bb36"
 yellow = "#e7e781"
@@ -18,13 +17,14 @@ lightCyan = "#58dbff"
 lightGreen = "#90cc5b"
 lightBlack = "#65737e"
 lightBlue = blue
+lightMagenta = "#d1a9ce"
 
 decorateConfig = (config) -> assign {}, config, {
   backgroundColor, foregroundColor, cursorColor, borderColor,
   colors: {
     black: backgroundColor, white: foregroundColor,
     red, green, blue, cyan, magenta, yellow,
-    lightRed: red, lightYellow: yellow, lightMagenta: magenta,
+    lightRed: red, lightYellow: yellow, lightMagenta,
     lightBlack, lightWhite: foregroundColor,
     lightCyan, lightBlue, lightGreen
   }
