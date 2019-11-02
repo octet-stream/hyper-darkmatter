@@ -15,7 +15,7 @@ const lightBlack = "#65737e"
 const lightBlue = blue
 const lightMagenta = "#d1a9ce"
 
-const extendConfig = (css, ...config) => ({
+const extendConfig = ({css, ...config}) => ({
   ...config,
 
   backgroundColor,
