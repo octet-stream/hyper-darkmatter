@@ -3,16 +3,19 @@
   "version": "0.2.2",
   "description": "Darkmatter theme for Hyper, inspired by Sublime Darkmatter",
   "keywords": [
-    "hyper", "theme", "hyper-theme", "term", "terminal", "dark-theme"
+    "hyper",
+    "theme",
+    "hyper-theme",
+    "term",
+    "terminal",
+    "dark-theme"
   ],
-  "main": "main.js",
+  "main": "darkmatter",
   "author": "Nick K.",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/octet-stream/hyper-darkmatter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/octet-stream/hyper-darkmatter/issues"
+  "repository": "octet-stream/hyper-darkmatter",
+  "devDependencies": {
+    "@octetstream/eslint-config": "4.0.0",
+    "eslint": "6.6.0"
   }
 }
